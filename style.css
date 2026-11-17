@@ -13,7 +13,7 @@ h1 {
 }
 
 h2 {
-  font-size: 50px;
+  font-size: 40px;
   margin-top: 0;
   margin-bottom: 20px;
 }
@@ -30,16 +30,31 @@ button {
 }
 
 #increment-btn {
-  background: darkred;
+  background: #a81515;
+}
+
+#increment-btn:hover {
+  color: #a81515;
+  background-color: white;
+  border: 2px solid #a81515;
+  font-weight: 800;
 }
 
 #save-btn {
-  background: darkgreen;
+  background: #012201;
+}
+
+#save-btn:hover {
+  color: #012201;
+  background-color: white;
+  border: 2px solid #012201;
+  font-weight: 800;
 }
 
 #counter-app {
   max-width: 400px;
   margin: 0 auto;
-  border: 5px solid green;
+  border: 5px solid #012201;
   border-radius: 10px;
+  box-sizing: border-box;
 }
